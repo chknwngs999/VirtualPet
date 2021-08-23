@@ -1,12 +1,12 @@
-//center image
 //change size for webpage
+//use variables so less editing positions?
 
+//setup screen size
 void setup() {
   size(1280, 1024);
 }
 
 //draw chicken
-//use variables so less editing positions?
 void draw() {
   //fill background
   background(77, 166, 255);
@@ -14,9 +14,9 @@ void draw() {
 
   //draw head feathers
   fill(255, 0, 0);
-  arc(480, 160, 125, 250, PI-0.3, 2*PI);
-  arc(560, 180, 125, 250, PI-0.3, 2*PI);
-  arc(640, 190, 125, 200, PI-0.3, 2*PI);
+  ellipse(480, 160, 125, 250);
+  ellipse(560, 180, 125, 250);
+  ellipse(640, 190, 125, 200);
   ellipse(700, 230, 100, 150);
   
   //draw legs
