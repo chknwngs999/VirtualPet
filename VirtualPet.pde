@@ -18,15 +18,17 @@ void draw() {
   
   //draw legs
   fill(255, 128, 0);
-  rect(845, 830, 10, 100);
-  rect(945, 830, 10, 100);
+  rect(835, 830, 10, 100);
+  rect(960, 830, 10, 100);
   
   //draw toes
+  ellipse(800, 930, 100, 25);
+  ellipse(925, 930, 100, 25);
   
   //draw leg stumps
   fill(255, 0, 0);
-  ellipse(850, 830, 50, 50);
-  ellipse(950, 830, 50, 50);
+  ellipse(840, 830, 50, 50);
+  ellipse(960, 830, 50, 50);
   
   //draw body
   fill(255, 255, 255);
