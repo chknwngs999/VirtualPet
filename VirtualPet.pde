@@ -1,3 +1,6 @@
+//center image
+//change size for webpage
+
 void setup() {
   size(1280, 1024);
 }
@@ -11,49 +14,49 @@ void draw() {
 
   //draw head feathers
   fill(255, 0, 0);
-  arc(580, 160, 125, 250, PI-0.3, 2*PI);
-  arc(660, 180, 125, 250, PI-0.3, 2*PI);
-  arc(740, 190, 125, 200, PI-0.3, 2*PI);
-  ellipse(800, 230, 100, 150);
+  arc(480, 160, 125, 250, PI-0.3, 2*PI);
+  arc(560, 180, 125, 250, PI-0.3, 2*PI);
+  arc(640, 190, 125, 200, PI-0.3, 2*PI);
+  ellipse(700, 230, 100, 150);
   
   //draw legs
   fill(255, 128, 0);
-  rect(835, 830, 10, 100);
-  rect(960, 830, 10, 100);
+  rect(735, 830, 10, 100);
+  rect(860, 830, 10, 100);
   
-  //draw toes
-  ellipse(800, 930, 100, 25);
-  ellipse(925, 930, 100, 25);
+  //draw feet
+  ellipse(700, 930, 100, 25);
+  ellipse(825, 930, 100, 25);
   
   //draw leg stumps
   fill(255, 0, 0);
-  ellipse(840, 830, 50, 50);
-  ellipse(960, 830, 50, 50);
+  ellipse(740, 830, 50, 50);
+  ellipse(860, 830, 50, 50);
   
   //draw body
   fill(255, 255, 255);
-  ellipse(900, 550, 575, 575);
+  ellipse(800, 550, 575, 575);
   fill(77, 166, 255);
-  ellipse(950, 390, 450, 300);
+  ellipse(850, 390, 450, 300);
 
   //draw head shape
   fill(255, 128, 0);
-  ellipse(650, 332, 425, 425);
+  ellipse(550, 332, 425, 425);
 
   //draw beak
   fill(255, 255, 0);
-  ellipse(380, 332, 175, 175);
+  ellipse(280, 332, 175, 175);
   fill(77, 166, 255);
-  triangle(250, 232, 210, 432, 410, 332);
+  triangle(150, 232, 110, 432, 310, 332);
 
   //draw eye
   fill(255, 0, 0);
-  arc(580, 210, 125, 175, 0, 3*PI/4);
+  arc(480, 210, 125, 175, 0, 3*PI/4);
   fill(255, 128, 0);
-  triangle(550, 190, 700, 190, 500, 300);
+  triangle(450, 190, 600, 190, 400, 300);
 
   //draw wing
   fill(255, 128, 0);
-  ellipse(1000, 600, 200, 200);
-  triangle(1100, 590, 900, 590, 1000, 200);
+  ellipse(900, 600, 200, 200);
+  triangle(1000, 590, 800, 590, 900, 200);
 }
